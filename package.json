@@ -1,0 +1,30 @@
+{
+  "name": "gaudi",
+  "version": "0.0.3",
+  "keywords": [
+    "react"
+  ],
+  "description": "Personalized fork of create-react-app.",
+  "repository": "",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=4"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "gaudi": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cross-spawn": "^4.0.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^1.2.1",
+    "path-exists": "^2.1.0",
+    "semver": "^5.0.3"
+  }
+}
